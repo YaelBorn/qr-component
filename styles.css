@@ -1,7 +1,55 @@
 body {
     background-color: hsl(212, 45%, 89%);
+    font-family: "Outfit", sans-serif;
 }
 
-.pizza {
-    color: red;
+main {
+    min-height: 100vh;
+    display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+.main-card {
+    background-color: white;
+    max-height: 499px;
+    max-width: 320px;
+    border-radius: 20px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.qr-code-image {
+    height: 288px;
+    width: 288px;
+    margin: 0 auto 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.main-info {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.improve-frontend {
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.20;
+    max-width: 256px;
+    margin: auto;
+    text-align: center;
+}
+
+.scan-qr {
+    color: hsl(216, 15%, 48%);
+    font-weight: 400;
+    font-size: 15px; 
+    line-height: 1.40;
+    margin: 16px auto 24px auto;
+    max-width: 256px;
+    text-align: center;
 }
